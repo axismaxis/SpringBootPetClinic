@@ -14,7 +14,7 @@
     </parent>
     <groupId>borg.timon</groupId>
     <artifactId>spring-boot-pet-clinic</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4-SNAPSHOT</version>
     <name>spring-boot-pet-clinic</name>
     <description>Pet clinic for learning purposes</description>
 
@@ -43,7 +43,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/axismaxis/SpringBootPetClinic.git</developerConnection>
-      <tag>spring-boot-pet-clinic-0.0.3</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
