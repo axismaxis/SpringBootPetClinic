@@ -15,7 +15,7 @@
     </parent>
     <groupId>borg.timon</groupId>
     <artifactId>spring-boot-pet-clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>spring-boot-pet-clinic</name>
     <description>Pet clinic for learning purposes</description>
 
@@ -23,13 +23,6 @@
         <java.version>1.8</java.version>
     </properties>
 
-    <dependencies>
-
-
-
-
-
-    </dependencies>
 
     <build>
         <plugins>
@@ -37,7 +30,20 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <configuration>
+                    <goals>
+                        install
+                    </goals>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
+
+    <scm>
+        <developerConnection>scm:git:https://github.com/axismaxis/SpringBootPetClinic.git</developerConnection>
+    </scm>
 
 </project>
